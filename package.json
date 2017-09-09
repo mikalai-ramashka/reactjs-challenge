@@ -1,0 +1,20 @@
+{
+  "name": "react-challenge",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "konva": "^1.6.8",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-konva": "^1.1.4",
+    "react-lazy-load": "^3.0.12",
+    "react-scripts": "1.0.13",
+    "svg-country-flags": "^1.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

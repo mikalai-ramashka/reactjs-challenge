@@ -1,0 +1,31 @@
+.Toolbar {
+  margin-left: -20px;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.Toolbar-header {
+  flex-grow: 0;
+  padding: 0 20px;
+  text-align: center;
+  color: white;
+  background: #201AB6;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.Toolbar-header a {
+  color: inherit;
+}
+
+.Toolbar-content {
+  flex-grow: 1;
+  border-right: 1px solid gray;
+  overflow: auto;
+}
+
+.Toolbar-content.collapsed {
+  display: none;
+}
+
